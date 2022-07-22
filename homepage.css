@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    
+}
+
+.cima-page{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(53, 53, 121);
+    
+    
+}
+
+.departamentos{
+    display: flex;
+    
+    align-items: center;
+}
+
+.logo{
+    width: 98px;
+    display: flex;
+    margin-right: 500px;
+    margin-left: 50px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.pesquisar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    padding-bottom: 10px;
+    background-color: rgb(255, 211, 253);
+    
+}
+
+.campo-pesquisa{
+    width: 450px;
+    height: 25px;
+    border-radius: 6px;
+    border-color: palegreen;
+}
+
+.botao-pesquisar{
+    height: 25px;
+    border-radius: 4px;
+    background-color: rgb(53, 53, 121);
+    color: white;
+}
+.botao-pesquisar:hover{
+    background-color: rgb(17, 17, 59);
+}
+
+main{
+    background-color: rgb(255, 211, 253);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    
+
+    
+}
+
+.layout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+    gap: 150px;
+
+}
+
+.img-produtos{
+    width: 250px;
+    
+    
+}
+
+
+.produtos{
+    border: 3px solid rgb(53, 53, 121);
+    background-color: white;
+    border-radius: 10px;
+    
+    
+    
+}
+
+.nome-produto{
+    background-color: rgb(160, 255, 160);
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+.img-produtos:hover{
+    -webkit-transform: scale(1.1);
+   transform: scale(1.2);
+   border-radius: 10px;
+   transition: 0.5s;
+
+   
+}
+
+
+
+a{
+    text-decoration: none;
+    margin: 0px 10px;
+    color: white;
+}
